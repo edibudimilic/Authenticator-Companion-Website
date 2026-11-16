@@ -1,0 +1,19 @@
+# Authenticator Companion website
+
+English landing page for the unofficial [Authenticator Companion for Google Authenticator™](https://github.com/edibudimilic/Authenticator-Companion-for-Google-Authenticator) Chrome extension.
+
+Live: https://google-auth-for-chrome.exevio.com
+
+## Development
+
+Plain HTML, CSS and JavaScript. No packages, external fonts, analytics or build step. Serve this folder with any static HTTP server, for example `python -m http.server 8766`. The interactive demo uses fixed illustrative values and never reads real authentication data.
+
+The Chrome Web Store button points to item `bmajakgokepceocggcfemcepnjkknpoi`. The initial release is awaiting review; update the visible pending-publication notice after verifying approval.
+
+## Deployment
+
+Hosted through DeployMonster in the Exevio workspace. `.deploymonster.json` records the verified project and local deployment revision. Deploy only `index.html`, `style.css`, `app.js`, and `assets/`; never publish Git metadata or the deployment locator. DNS is managed in DigitalOcean.
+
+## License
+
+MIT. Google Authenticator is a trademark of Google LLC. This project is independent and unofficial.
