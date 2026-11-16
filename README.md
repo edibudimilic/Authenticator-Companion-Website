@@ -12,7 +12,9 @@ The Chrome Web Store button points to item `bmajakgokepceocggcfemcepnjkknpoi`. T
 
 ## Deployment
 
-Hosted through DeployMonster in the Exevio workspace. `.deploymonster.json` records the verified project and local deployment revision. Deploy only `index.html`, `style.css`, `app.js`, and `assets/`; never publish Git metadata or the deployment locator. DNS is managed in DigitalOcean.
+Hosted through DeployMonster in the Exevio workspace. `.deploymonster.json` records the verified project and local deployment revision. Deploy only `index.html`, `style.css`, `app.js`, and `assets/`; never publish Git metadata or the deployment locator.
+
+DNS A and verification TXT records were added through DigitalOcean MCP. At deployment time, exevio.com was delegated to Stellar nameservers, so the same records were also added to its authoritative WHM zone. DigitalOcean's copy alone is not authoritative.
 
 ## License
 
