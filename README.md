@@ -8,7 +8,7 @@ Live: https://google-auth-for-chrome.exevio.com
 
 Plain HTML, CSS and JavaScript. No packages, external fonts, analytics or build step. Serve this folder with any static HTTP server, for example `python -m http.server 8766`. The interactive demo uses fixed illustrative values and never reads real authentication data.
 
-The Chrome Web Store button points to item `bmajakgokepceocggcfemcepnjkknpoi`. The initial release is awaiting review; update the visible pending-publication notice after verifying approval.
+The Chrome Web Store button points to item `bmajakgokepceocggcfemcepnjkknpoi`. Version 1.0.0 is published publicly, as confirmed in the publisher dashboard on 17 November 2026.
 
 ## Deployment
 
